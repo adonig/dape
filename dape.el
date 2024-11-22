@@ -60,6 +60,8 @@
 (require 'jsonrpc)
 (require 'eglot) ;; jdtls config
 
+(message "Load path for jsonrpc: %s" (locate-library "jsonrpc"))
+
 
 ;;; Obsolete aliases
 (define-obsolete-variable-alias 'dape-buffer-window-arrangment 'dape-buffer-window-arrangement "0.3.0")
