@@ -57,8 +57,8 @@
 (require 'gdb-mi)
 (require 'hexl)
 (require 'tramp)
-(require 'jsonrpc)
 (require 'eglot) ;; jdtls config
+(require 'jsonrpc)
 
 (message "Load path for jsonrpc: %s" (locate-library "jsonrpc"))
 
